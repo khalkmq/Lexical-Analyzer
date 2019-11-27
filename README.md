@@ -7,10 +7,10 @@ Lexical analysis is one of the first phases of the compiling process.
 This particular implementation attempts to do this for a minified version of the C Language (Mini-C).
 
 This Lexical analyzer implementation will: 
-1) takes a program source as an input stream, 
-2) breaks the source into the sequence of lexemes that are meaningful units of words for tokens, 
-3) generates tokens, each of which is a pair of a token name and its attribute, and 
-4) passes them to parser sequentially.
+1) Takes a program source as an input stream. 
+2) Breaks the source into the sequence of lexemes that are meaningful units of words for tokens. 
+3) Generates tokens, each of which is a pair of a token name and its attribute. 
+4) Passes them to parser sequentially.
 (OPTIONAL) 5) Adds new identifiers into the symbol table. 
 
 
