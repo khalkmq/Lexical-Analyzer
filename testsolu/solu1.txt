@@ -1,0 +1,5 @@
+<MAIN :1:1><LPAREN :1:5><RPAREN :1:6>
+<BEGIN :2:1>
+    << add "a" into symbol table at 0 >><ID, 0 :3:5> <ASSIGN :3:7> <INT_VALUE, 1 :3:9><SEMI :3:10>
+    <PRINT :4:5> <ID, 0 :4:11><SEMI :4:12>
+<END :5:1>

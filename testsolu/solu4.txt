@@ -1,0 +1,21 @@
+<MAIN :1:1><LPAREN :1:5><RPAREN :1:6>
+<BEGIN :2:1>
+    << add "za" into symbol table at 0 >><ID, 0 :3:5> <ASSIGN :3:8> <INT_VALUE, 1 :3:10><SEMI :3:11>
+    <ID, 0 :4:5> <ASSIGN :4:8> <ID, 0 :4:10> <OP, + :4:13> <INT_VALUE, 2 :4:15><SEMI :4:16>
+    <ID, 0 :5:5> <ASSIGN :5:8>  <INT_VALUE, 3 :5:11> <OP, + :5:13> <ID, 0 :5:15><SEMI :5:17>
+    << add "zb" into symbol table at 1 >><ID, 1 :6:5> <ASSIGN :6:8> <ID, 0 :6:10> <OP, + :6:13>  <INT_VALUE, 4 :6:16><SEMI :6:17>
+    << add "zc" into symbol table at 2 >><ID, 2 :7:5> <ASSIGN :7:8> <ID, 0 :7:10> <OP, + :7:13> <ID, 1 :7:15><SEMI :7:17>
+    << add "zd" into symbol table at 3 >><ID, 3 :8:5> <ASSIGN :8:8> <ID, 1 :8:10> <OP, + :8:13> <ID, 2 :8:15><SEMI :8:17>
+    << add "ze" into symbol table at 4 >><ID, 4 :9:5> <ASSIGN :9:8> <ID, 2 :9:10> <OP, + :9:13> <ID, 3 :9:15><SEMI :9:17>
+    << add "zf" into symbol table at 5 >><ID, 5 :10:5> <ASSIGN :10:8> <ID, 3 :10:10> <OP, + :10:13> <ID, 4 :10:15><SEMI :10:17>
+    << add "zg" into symbol table at 6 >><ID, 6 :11:5> <ASSIGN :11:8> <ID, 4 :11:10> <OP, + :11:13> <ID, 5 :11:15><SEMI :11:17>
+    << add "zh" into symbol table at 7 >><ID, 7 :12:5> <ASSIGN :12:8> <ID, 5 :12:10> <OP, + :12:13> <ID, 6 :12:15><SEMI :12:17>
+    << add "zi" into symbol table at 8 >><ID, 8 :13:5> <ASSIGN :13:8> <ID, 6 :13:10> <OP, + :13:13> <ID, 7 :13:15><SEMI :13:17>
+    << add "zj" into symbol table at 9 >><ID, 9 :14:5> <ASSIGN :14:8> <ID, 7 :14:10> <OP, + :14:13> <ID, 8 :14:15><SEMI :14:17>
+    << add "zk" into symbol table at 10 >><ID, 10 :15:5> <ASSIGN :15:8> <ID, 8 :15:10> <OP, + :15:13> <ID, 9 :15:15><SEMI :15:17>
+    << add "zl" into symbol table at 11 >><ID, 11 :16:5> <ASSIGN :16:8> <ID, 9 :16:10> <OP, + :16:13> <ID, 10 :16:15><SEMI :16:17>
+    << add "zm" into symbol table at 12 >><ID, 12 :17:5> <ASSIGN :17:8> <ID, 10 :17:10> <OP, + :17:13> <ID, 11 :17:15><SEMI :17:17>
+    << add "zn" into symbol table at 13 >><ID, 13 :18:5> <ASSIGN :18:8> <ID, 11 :18:10> <OP, + :18:13> <ID, 12 :18:15><SEMI :18:17>
+    <FLOAT_VALUE, 3.141592 :19:5> <IF :19:14> <ELSE :19:17> <WHILE :19:22> <BOOL :19:28> <INT :19:33> <FLOAT :19:37>  <BOOL_VALUE, true :19:44> <BOOL_VALUE, false :19:49> <RELOP, == :19:55> <RELOP, != :19:58> <RELOP, < :19:61> <RELOP, > :19:63> <RELOP, <= :19:65> <RELOP, >= :19:68> <OP, - :19:71> <OP, * :19:73> <OP, / :19:75>  << add "this" into symbol table at 14 >><ID, 14 :19:78> << add "line" into symbol table at 15 >><ID, 15 :19:83> << add "will" into symbol table at 16 >><ID, 16 :19:88> << add "be" into symbol table at 17 >><ID, 17 :19:93> << add "ignored" into symbol table at 18 >><ID, 18 :19:96> <SEMI :19:104> // test 1 2 3
+    <PRINT :20:5> <ID, 13 :20:11><SEMI :20:13>
+<END :21:1>
