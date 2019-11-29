@@ -1,7 +1,5 @@
 # Lexical-Analyzer
 
-Used : proj2-minc-RecPredict-startup
-
 ## Description:
 Lexical analysis is one of the first phases of the compiling process. 
 This particular implementation attempts to do this for a minified version of the C Language (Mini-C).
