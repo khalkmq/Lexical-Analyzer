@@ -43,4 +43,4 @@ java Program fail_01.minc > f1.txt
 
 [Lexical-Analyzer](https://github.com/khalkmq/Lexical-Analyzer)
 
-[Syntax Checker]()
+[Syntax Checker](https://github.com/khalkmq/Syntax-Checker)
